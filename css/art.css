@@ -1,0 +1,58 @@
+/* colors */
+body {
+  padding-top: 2em;
+  font-size: 15px;
+  background-color: #4ea077; }
+
+.circle {
+  position: relative;
+  width: 20em;
+  height: 20em;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 2;
+  background: #fff; }
+
+.circle:after {
+  content: '';
+  position: absolute;
+  border-radius: 100%;
+  width: 20em;
+  height: 20em;
+  box-shadow: 0px 0px 0px 2000px #4ea077; }
+
+/* Character body */
+.basic {
+  background: #831C21;
+  height: 1em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1em;
+  box-shadow: -7em 0 0 #A7761C, -6em 0 0 #A7761C, -5em 0 0 #DEC763, -4em 0 0 #DEC763, -3em 0 0 #A7761C, -2em 0 0 #A7761C, -1em 0 0 #831C21, 0 0 0 #831C21, 1em 0 0 #A7761C, 2em 0 0 #A7761C, 3em 0 0 #DEC763, 4em 0 0 #DEC763, 5em 0 0 #A7761C, 6em 0 0 #A7761C, -7em 1em 0 #A7761C, -6em 1em 0 #A7761C, -5em 1em 0 #A7761C, -4em 1em 0 #A7761C, -3em 1em 0 #A7761C, -2em 1em 0 #A7761C, -1em 1em 0 #A7761C, 0em 1em 0 #A7761C, 1em 1em 0 #A7761C, 2em 1em 0 #A7761C, 3em 1em 0 #A7761C, 4em 1em 0 #A7761C, 5em 1em 0 #A7761C, 6em 1em 0 #A7761C, -6em 2em 0 #A7761C, -5em 2em 0 #A7761C, -4em 2em 0 #A7761C, -3em 2em 0 #A7761C, -2em 2em 0 #A7761C, -1em 2em 0 #A7761C, 0em 2em 0 #A7761C, 1em 2em 0 #A7761C, 2em 2em 0 #A7761C, 3em 2em 0 #A7761C, 4em 2em 0 #A7761C, 5em 2em 0 #A7761C, -5em 3em 0 #A7761C, -4em 3em 0 #A7761C, -3em 3em 0 #A7761C, -2em 3em 0 #A7761C, -1em 3em 0 #A7761C, 0em 3em 0 #A7761C, 1em 3em 0 #A7761C, 2em 3em 0 #A7761C, 3em 3em 0 #A7761C, 4em 3em 0 #A7761C, -4em 4em 0 #A7761C, -3em 4em 0 #A7761C, -2em 4em 0 #A7761C, -1em 4em 0 #A7761C, 0em 4em 0 #A7761C, 1em 4em 0 #A7761C, 2em 4em 0 #A7761C, 3em 4em 0 #A7761C, -6em 5em 0 #006277, -5em 5em 0 #006277, -4em 5em 0 #006277, -3em 5em 0 #006277, -2em 5em 0 #DEC763, -1em 5em 0 #DEC763, 0em 5em 0 #DEC763, 1em 5em 0 #DEC763, 2em 5em 0 #006277, 3em 5em 0 #006277, 4em 5em 0 #006277, 5em 5em 0 #006277, -7em 6em 0 #006277, -6em 6em 0 #006277, -5em 6em 0 #006277, -4em 6em 0 #006277, -3em 6em 0 #006277, -2em 6em 0 #006277, -1em 6em 0 #006277, 0em 6em 0 #006277, 1em 6em 0 #006277, 2em 6em 0 #006277, 3em 6em 0 #006277, 4em 6em 0 #006277, 5em 6em 0 #006277, 6em 6em 0 #006277, -7em 7em 0 #006277, -6em 7em 0 #006277, -5em 7em 0 #006277, -4em 7em 0 #006277, -3em 7em 0 #006277, -2em 7em 0 #006277, -1em 7em 0 #006277, 0em 7em 0 #006277, 1em 7em 0 #006277, 2em 7em 0 #006277, 3em 7em 0 #006277, 4em 7em 0 #006277, 5em 7em 0 #006277, 6em 7em 0 #006277, -7em 8em 0 #006277, -6em 8em 0 #006277, -5em 8em 0 #006277, -4em 8em 0 #006277, -3em 8em 0 #006277, -2em 8em 0 #006277, -1em 8em 0 #006277, 0em 8em 0 #006277, 1em 8em 0 #006277, 2em 8em 0 #006277, 3em 8em 0 #006277, 4em 8em 0 #006277, 5em 8em 0 #006277, 6em 8em 0 #006277, -7em 9em 0 #006277, -6em 9em 0 #006277, -5em 9em 0 #006277, -4em 9em 0 #006277, -3em 9em 0 #006277, -2em 9em 0 #006277, -1em 9em 0 #006277, 0em 9em 0 #006277, 1em 9em 0 #006277, 2em 9em 0 #006277, 3em 9em 0 #006277, 4em 9em 0 #006277, 5em 9em 0 #006277, 6em 9em 0 #006277, -7em -1em 0 #272310, -6em -1em 0 #272310, -5em -1em 0 #272310, -4em -1em 0 #272310, -3em -1em 0 #272310, -2em -1em 0 #272310, -1em -1em 0 #A7761C, 0 -1em 0 #A7761C, 1em -1em 0 #272310, 2em -1em 0 #272310, 3em -1em 0 #272310, 4em -1em 0 #272310, 5em -1em 0 #272310, 6em -1em 0 #272310, -8em -2em 0 #DEC763, -7em -2em 0 #272310, -6em -2em 0 #ffffff, -5em -2em 0 #ffffff, -4em -2em 0 #ffffff, -3em -2em 0 #ffffff, -2em -2em 0 #272310, -1em -2em 0 #DEC763, 0 -2em 0 #DEC763, 1em -2em 0 #272310, 2em -2em 0 #ffffff, 3em -2em 0 #ffffff, 4em -2em 0 #ffffff, 5em -2em 0 #ffffff, 6em -2em 0 #272310, 7em -2em 0 #DEC763, -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #ffffff, -5em -3em 0 #ffffff, -4em -3em 0 #272310, -3em -3em 0 #272310, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #ffffff, 3em -3em 0 #ffffff, 4em -3em 0 #272310, 5em -3em 0 #272310, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #ffffff, -5em -4em 0 #ffffff, -4em -4em 0 #272310, -3em -4em 0 #272310, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #ffffff, 3em -4em 0 #ffffff, 4em -4em 0 #272310, 5em -4em 0 #272310, 6em -4em 0 #272310, 7em -4em 0 #272310, -7em -5em 0 #272310, -6em -5em 0 #272310, -5em -5em 0 #272310, -4em -5em 0 #272310, -3em -5em 0 #272310, -2em -5em 0 #272310, -1em -5em 0 #DEC763, 0 -5em 0 #DEC763, 1em -5em 0 #272310, 2em -5em 0 #272310, 3em -5em 0 #272310, 4em -5em 0 #272310, 5em -5em 0 #272310, 6em -5em 0 #272310, -7em -6em 0 #736831, -6em -6em 0 #DEC763, -5em -6em 0 #DEC763, -4em -6em 0 #DEC763, -3em -6em 0 #DEC763, -2em -6em 0 #DEC763, -1em -6em 0 #DEC763, 0 -6em 0 #DEC763, 1em -6em 0 #DEC763, 2em -6em 0 #DEC763, 3em -6em 0 #DEC763, 4em -6em 0 #DEC763, 5em -6em 0 #DEC763, 6em -6em 0 #736831, -7em -7em 0 #736831, -6em -7em 0 #736831, -5em -7em 0 #DEC763, -4em -7em 0 #DEC763, -3em -7em 0 #DEC763, -2em -7em 0 #DEC763, -1em -7em 0 #DEC763, 0 -7em 0 #DEC763, 1em -7em 0 #DEC763, 2em -7em 0 #DEC763, 3em -7em 0 #DEC763, 4em -7em 0 #DEC763, 5em -7em 0 #736831, 6em -7em 0 #736831, -6em -8em 0 #736831, -5em -8em 0 #736831, -4em -8em 0 #736831, -3em -8em 0 #736831, -2em -8em 0 #736831, -1em -8em 0 #736831, 0 -8em 0 #736831, 1em -8em 0 #736831, 2em -8em 0 #736831, 3em -8em 0 #736831, 4em -8em 0 #736831, 5em -8em 0 #736831, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+
+.basic::after {
+  -webkit-animation: look 4s steps(1) alternate infinite;
+  animation: look 4s steps(1) alternate infinite;
+  content: "";
+  height: 1em;
+  left: 0em;
+  position: absolute;
+  top: 0em;
+  width: 1em;
+  z-index: 1;
+  box-shadow: -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+
+@-webkit-keyframes look {
+  0% {
+    box-shadow: -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #ffffff, -5em -3em 0 #ffffff, -4em -3em 0 #272310, -3em -3em 0 #272310, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #ffffff, 3em -3em 0 #ffffff, 4em -3em 0 #272310, 5em -3em 0 #272310, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #ffffff, -5em -4em 0 #ffffff, -4em -4em 0 #272310, -3em -4em 0 #272310, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #ffffff, 3em -4em 0 #ffffff, 4em -4em 0 #272310, 5em -4em 0 #272310, 6em -4em 0 #272310, 7em -4em 0 #272310, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+  25% {
+    box-shadow: -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #ffffff, -5em -3em 0 #272310, -4em -3em 0 #272310, -3em -3em 0 #ffffff, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #ffffff, 3em -3em 0 #272310, 4em -3em 0 #272310, 5em -3em 0 #ffffff, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #ffffff, -5em -4em 0 #272310, -4em -4em 0 #272310, -3em -4em 0 #ffffff, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #ffffff, 3em -4em 0 #272310, 4em -4em 0 #272310, 5em -4em 0 #ffffff, 6em -4em 0 #272310, 7em -4em 0 #272310, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+  50% {
+    box-shadow: -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #ffffff, -5em -3em 0 #272310, -4em -3em 0 #272310, -3em -3em 0 #ffffff, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #ffffff, 3em -3em 0 #272310, 4em -3em 0 #272310, 5em -3em 0 #ffffff, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #ffffff, -5em -4em 0 #272310, -4em -4em 0 #272310, -3em -4em 0 #ffffff, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #ffffff, 3em -4em 0 #272310, 4em -4em 0 #272310, 5em -4em 0 #ffffff, 6em -4em 0 #272310, 7em -4em 0 #272310, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+  75% {
+    box-shadow: -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #272310, -5em -3em 0 #272310, -4em -3em 0 #ffffff, -3em -3em 0 #ffffff, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #272310, 3em -3em 0 #272310, 4em -3em 0 #ffffff, 5em -3em 0 #ffffff, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #272310, -5em -4em 0 #272310, -4em -4em 0 #ffffff, -3em -4em 0 #ffffff, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #272310, 3em -4em 0 #272310, 4em -4em 0 #ffffff, 5em -4em 0 #ffffff, 6em -4em 0 #272310, 7em -4em 0 #272310, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; }
+  90% {
+    box-shadow: -8em -3em 0 #DEC763, -7em -3em 0 #272310, -6em -3em 0 #272310, -5em -3em 0 #272310, -4em -3em 0 #ffffff, -3em -3em 0 #ffffff, -2em -3em 0 #272310, -1em -3em 0 #DEC763, 0 -3em 0 #DEC763, 1em -3em 0 #272310, 2em -3em 0 #272310, 3em -3em 0 #272310, 4em -3em 0 #ffffff, 5em -3em 0 #ffffff, 6em -3em 0 #272310, 7em -3em 0 #DEC763, -8em -4em 0 #272310, -7em -4em 0 #272310, -6em -4em 0 #272310, -5em -4em 0 #272310, -4em -4em 0 #ffffff, -3em -4em 0 #ffffff, -2em -4em 0 #272310, -1em -4em 0 #272310, 0 -4em 0 #272310, 1em -4em 0 #272310, 2em -4em 0 #272310, 3em -4em 0 #272310, 4em -4em 0 #ffffff, 5em -4em 0 #ffffff, 6em -4em 0 #272310, 7em -4em 0 #272310, -5em -9em 0 #736831, -4em -9em 0 #736831, -3em -9em 0 #736831, -2em -9em 0 #736831, -1em -9em 0 #736831, 0 -9em 0 #736831, 1em -9em 0 #736831, 2em -9em 0 #736831, 3em -9em 0 #736831, 4em -9em 0 #736831; } }
+
+/*# sourceMappingURL=art.css.map */

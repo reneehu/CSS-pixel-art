@@ -18,9 +18,10 @@ body {
     width:20em; height:20em;
     margin:0 auto;
     overflow:hidden;
-  z-index: 2;
-  background: #fff;
+    z-index: 2;
+    background: #fff;
 }
+
 .circle:after{
     content:'';
     position:absolute;
@@ -356,7 +357,7 @@ body {
 @-webkit-keyframes look {
   0% {
     box-shadow:
-      -8em -3em 0 $c-skin,
+    -8em -3em 0 $c-skin,
     -7em -3em 0 $c-glasses,
     -6em -3em 0 $c-eyes,
     -5em -3em 0 $c-eyes,
